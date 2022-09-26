@@ -97,11 +97,11 @@ void Init(){
 
 int main(int Argc, char** Argv){
     glutInit(&Argc, Argv);
-    glutInitWindowSize(600,400);                   //window size
-    glutInitWindowPosition(200,100);               //window position
-    glutCreateWindow("Nur Hikmah Wulandari_Tugas 1");                   //judul windownya
-    Init();                                         //memanggil void init
-    glutDisplayFunc(segi4);                         //memanggil fungsi (void) utk tampil dilayar
+    glutInitWindowSize(600,400);                                //window size
+    glutInitWindowPosition(200,100);                            //window position
+    glutCreateWindow("Nur Hikmah Wulandari_Tugas 1");           //judul windownya
+    Init();                                                     //memanggil void init
+    glutDisplayFunc(segi4);                                     //memanggil fungsi (void) utk tampil dilayar
     glutMainLoop();
     return 0;
 }
